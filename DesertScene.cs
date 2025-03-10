@@ -79,7 +79,7 @@ public class DesertScene : MonoBehaviour
             {
                 for (int z = 0; z < currentSize; z++)
                 {
-                    Vector3 blockPosition = new Vector3(pyrPosition.x + x - (5 - 1) / 2f + i * 0.5f, pyrPosition.y + i, pyrPosition.z + z - (5 - 1) / 2f + i * 0.5f); //this somehow works... i'm not gonna question it it took me forever
+                    Vector3 blockPosition = new Vector3(pyrPosition.x + x - (5 - 1) / 2f + i * 0.5f, pyrPosition.y + i, pyrPosition.z + z - (5 - 1) / 2f + i * 0.5f); 
 
                     GameObject block = GameObject.CreatePrimitive(PrimitiveType.Cube);
                     block.transform.position = blockPosition;
